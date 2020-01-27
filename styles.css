@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 98%;
+  height: 95%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  flex: 0 0 100px;
+  height: 100px;
+  background-color: cadetblue;
+}
+
+.main {
+  flex: 1 1 auto;
+  width: 100%;
+  background-color: darkgrey;
+}
+
+.bot-name {
+  color: blue;
+  background-color: red;
+}
